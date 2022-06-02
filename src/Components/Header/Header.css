@@ -1,0 +1,49 @@
+.Header{
+     /* display: flex; */
+     height: 684.45;
+     padding-top: 12.5px;
+     color: rgb(255, 255, 255);
+}
+
+.options{
+     float: right;
+     display: inline;
+     margin-right: 20px;
+     padding: 4px;
+     border-radius: 2px;
+     margin-top: 0px;
+     transition: all 1s ease-in-out;
+     cursor: pointer;
+     /* border: 2.5px solid rgb(255, 255, 255); */
+}
+.home{
+     text-align: center;
+     font-weight: 700;
+     height: 3.6%;
+     width: 4.6%;
+     align-items: center;
+     font-size: large;
+}
+.threebar{
+     display: inline;
+     padding-left: 15px;
+     cursor: pointer;
+     transition: all 1s ease;
+}
+.options:hover{
+     text-decoration: underline;
+     transition: all 1s linear;
+     cursor: pointer;
+     background-color: rgba(0, 0, 0, 100);
+}
+.active{
+     border: 2.5px solid rgb(255, 255, 255);
+}
+.long{
+     width: 90px;
+}
+
+.threebar :hover{
+     background-color: rgb(96, 95, 95);
+     transition:  1s ease;
+}

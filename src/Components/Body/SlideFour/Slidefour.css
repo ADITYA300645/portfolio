@@ -1,0 +1,13 @@
+.holder{
+     height: 80vh;
+     display: flex;
+     position: relative;
+     width: 90vw;
+     left: 5vw;
+     flex-direction: row;
+     align-content: space-between;
+}
+.SlideFour{
+     background-color: #255463;
+     color: white;
+}

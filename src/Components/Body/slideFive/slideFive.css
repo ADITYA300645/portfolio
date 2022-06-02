@@ -1,0 +1,17 @@
+.SlideFive {
+  display: flex;
+  flex-direction: row;
+}
+.left-Side {
+  flex: 40;
+  background-color: rgb(41, 165, 199);
+  height: 100vh;
+  align-content: center;
+}
+.Right-side {
+  flex: 60;
+  background-color: rgb(255, 255, 255);
+}
+.Thank{
+     transition: all 1s cubic-bezier();
+}

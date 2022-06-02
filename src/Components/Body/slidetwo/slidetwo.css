@@ -1,0 +1,38 @@
+.slidetwo {
+  min-height: 85vh;
+  background-color: rgba(81, 157, 182, 0.5);
+}
+.myWords {
+  box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  top: 20vh;
+  left: 5vw;
+  width: 60vw;
+  height: 20vh;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  font-size: 28px;
+}
+.sentence {
+  margin-top: 8px;
+}
+.firstone {
+  margin-top: 20px;
+}
+.blue {
+  display: inline;
+  color: #519db6;
+}
+.bluedarker {
+  display: inline;
+  color: #00c2b5;
+}
+.red {
+  display: inline;
+  color: #ff6161;
+}

@@ -1,0 +1,94 @@
+.block{
+     margin-left: 7.0vw;
+     margin-right: 7.8vw;
+     position: relative;
+     top: 8vh;
+     left: -10vw;
+}
+.visitButton{}
+.Distance{
+     position: relative;
+     top: 8vh;
+}
+.siteCard{
+     border-radius: 0.6vw;
+     background-color: rgb(166, 168, 169);
+     width: 17.5vw;
+     height: 48vh;
+     color: aliceblue;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     overflow: hidden;
+     font-size: 1.8vh;
+}
+.siteInfo{
+     background-color: rgba(240, 248, 255, 0.308);
+     position: relative;
+     top: 45vh;
+     border-top-right-radius: 1vw;
+     border-top-left-radius: 1vw;
+     padding-left: 2vw;
+     padding-right: 2vw;
+     height: 35vh;
+     text-align: center;
+     transition: all 1s ease-out;
+}
+.name{
+     position: relative;
+     right : 5vw;
+     top : -3vh;
+}
+.visitButton{
+     cursor: pointer;
+     display: block;
+     transition:  all 0.5s ease-in;
+     position: absolute;
+     background-color: rgb(130, 175, 191);
+     border: none;
+     left: 5.5vw;
+     display: flex;
+     flex-direction: row;
+     align-content: space-between;
+     padding-top: 0.6vh;
+     top: 14.5vh;
+     height: 3.5vh;
+     width: 40%;
+     align-items: center;
+}
+.partition{
+     display: inline;
+     float: left;
+     margin-left: 0.4vw;
+     margin-right: 0.4vw;
+}
+
+.datePosition{
+     float: left;
+     position: relative;
+     left: -1.2vw;
+     top: -1.4vh;
+     font-size: x-small;
+}
+.date{
+     float: right;
+     position: relative;
+     left: 1.2vw;
+     top: -1.4vh;
+     font-size: x-small;
+}
+
+.siteCard:hover .siteInfo
+{
+     top: 28vh;
+     transition: all 0.5s ease-in;
+}
+.visitButton:hover {
+     transition:  all 0.5s ease-in;
+     background-color: rgb(54, 110, 173);
+}
+
+.visit{
+     position: relative;
+     top: -0.16vh;
+}
